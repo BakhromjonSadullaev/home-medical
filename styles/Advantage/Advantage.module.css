@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,800&display=swap");
+
+.advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: #fbfbfb;
+  padding: 4rem 0;
+  color: #212121;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.advantageContainer {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.advantage {
+  margin: 40px 40px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantage > h2 {
+  padding: 14px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.advantage > p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 3.5rem;
+}
+
+.active {
+  color: #129e47;
+}

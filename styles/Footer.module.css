@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,800&display=swap");
+
+.green {
+  width: 100%;
+  height: 100px;
+  background-color: #129e47;
+}
+
+.footer {
+  border: 1px solid #dcdcdc;
+  background-color: #dcdcdc;
+}
+.footerContainer {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #dcdcdc;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutCompany {
+  width: 300px;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.fastLinks {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.fastLinks > h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.aboutCompany > h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.aboutCompany > h5 {
+  margin-top: 10px;
+  width: 220px;
+}
+
+.aboutCompany > p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.aboutCompany > img {
+  width: 179px;
+  height: 36px;
+}
+
+.links {
+  width: inherit;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.links .linksContainer > p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.contact {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact > h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.icons {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.lisence {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #212121;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .aboutCompany {
+    margin-left: 60px;
+  }
+
+  .contact {
+    margin-right: 40px;
+  }
+}
