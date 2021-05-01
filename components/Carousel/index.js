@@ -30,9 +30,8 @@ const HomeCarousel = () => {
   return (
     <Carousel
       className={styled.carousel}
-      transitionTime={6000}
       // autoPlay={true}
-      interval={5000}
+      interval={3000}
       showArrows={true}
       infiniteLoop={true}
       showStatus={false}
@@ -89,9 +88,9 @@ const HomeCarousel = () => {
       }}
     >
       <div className={styled.item1}>
-        <div className={styled.item1Conteiner}>
+        <div className={styled.item1Container}>
           <div className={styled.item1Text}>
-            <img src="/cannon.png" alt="" />
+            <img className={styled.imgProp1} src="/cannon.png" alt="" />
             <h2>Ультраспиральная КТ с 80 рядами детекторов</h2>
             <p>
               Инновационная система Aquilion Prime SP — это аппарат КТ,
@@ -101,7 +100,7 @@ const HomeCarousel = () => {
             <button>Узнать подробнее</button>
           </div>
           <div className={styled.imgHolder1}>
-            <img src="/Image.png" />
+            <img className={styled.imgProp1} src="/Image.png" />
           </div>
         </div>
       </div>

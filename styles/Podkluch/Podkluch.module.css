@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,800&display=swap");
+
+.productsCarousel {
+  min-height: 800px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cannon {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 800px;
+}
+
+.cannonContainer {
+  position: absolute;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cannonText {
+  max-width: 895px;
+  text-align: start;
+}
+
+.cannonText > h2 {
+  padding: 2rem 0 0.5rem 0;
+  font-size: 24px;
+}
+
+.cannonContainer > img {
+  max-width: 895px;
+}
+
+.cannonButtons {
+  margin-top: 20px;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cannonButtons > button {
+  border: none;
+  border-radius: 25px;
+  padding: 11px 23px;
+  background: rgb(18, 158, 71);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 158, 71, 1) 2%,
+    rgba(16, 105, 171, 1) 100%
+  );
+  color: white;
+  letter-spacing: 1px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+}
+
+.cannonButtons a {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head > h2 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 895px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.brands > img {
+  margin: 0.5rem 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .cannonButtons {
+    width: 100%;
+  }
+}

@@ -1,0 +1,89 @@
+.contact {
+  /* padding: 1rem 0; */
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form {
+  width: 50%;
+  padding: 3rem 5rem 3rem 8rem;
+}
+
+.form h3 {
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.name input {
+  max-width: 600px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.name input::placeholder {
+  color: lightgray;
+}
+
+.name label {
+  font-weight: 600;
+}
+
+.name textarea {
+  max-width: 600px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  resize: none;
+}
+
+.form button {
+  border: none;
+  border-radius: 25px;
+  padding: 11px 23px;
+  background: rgb(18, 158, 71);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 158, 71, 1) 2%,
+    rgba(16, 105, 171, 1) 100%
+  );
+  color: white;
+  letter-spacing: 1px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+}
+
+.map {
+  width: 50%;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form {
+    width: 100%;
+    padding-left: 4rem;
+  }
+  .map {
+    width: 80%;
+    height: 400px;
+  }
+}

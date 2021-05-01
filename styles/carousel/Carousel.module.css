@@ -10,8 +10,8 @@
   object-fit: cover;
 }
 
-.item1Conteiner {
-  width: 80%;
+.item1Container {
+  width: 75%;
   margin: auto;
   position: absolute;
   display: flex;
@@ -41,7 +41,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.item1Text img {
+.item1Text > img {
   max-width: 100px;
   height: 21px;
   margin-bottom: 30px;
@@ -78,4 +78,16 @@
 .imgHolder1 > img {
   max-width: 466px;
   height: 436px;
+}
+
+@media only screen and (max-width: 1040px) {
+  .imgHolder1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .item1Container {
+    justify-content: center;
+  }
 }

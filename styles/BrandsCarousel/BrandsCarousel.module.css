@@ -1,0 +1,7 @@
+.car {
+  border: 1px solid red;
+}
+
+.check > .rec.rec-arrow {
+  border: none;
+}
