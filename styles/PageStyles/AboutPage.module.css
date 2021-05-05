@@ -1,0 +1,15 @@
+.aboutPage {
+  width: 90%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.aboutPageRouter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+.aboutPageRouter p {
+  margin: 1rem 5px;
+}

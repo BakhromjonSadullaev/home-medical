@@ -19,8 +19,7 @@
 }
 
 .navigationContainer > p {
-  margin-top: 15px;
-
+  margin-top: 13px;
   border-left: 2px solid rgb(240, 240, 240);
   border-right: 1px solid rgb(240, 240, 240);
   height: 50px;

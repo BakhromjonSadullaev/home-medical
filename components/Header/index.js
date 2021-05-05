@@ -7,15 +7,25 @@ import PhoneInTalkIcon from "@material-ui/icons/PhoneInTalk";
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [active1, setActive1] = useState(false);
+  const [active2, setActive2] = useState(false);
+  const [active3, setActive3] = useState(false);
+  const [active4, setActive4] = useState(false);
+  const [active5, setActive5] = useState(false);
+  const [active6, setActive6] = useState(false);
+  const [active7, setActive7] = useState(false);
+  const [active8, setActive8] = useState(false);
   return (
     <div className={styles.header}>
       <div className={styles.headerContainer}>
-        <div className={styles.logoContainer}>
-          <img src="/LOGO.png" alt="" />
-          <h4>
-            Медицинские <br /> технологии из японии
-          </h4>
-        </div>
+        <Link href="/">
+          <div className={styles.logoContainer}>
+            <img src="/LOGO.png" alt="" />
+            <h4>
+              Медицинские <br /> технологии из японии
+            </h4>
+          </div>
+        </Link>
 
         {/* <p className={styles.hamburger}>icon</p> */}
         <HiMenuAlt3
